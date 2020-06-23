@@ -79,4 +79,4 @@ while int(accuracy) < 90 :
     
 
     # terminating the session 
-s.quit()
+quit()
