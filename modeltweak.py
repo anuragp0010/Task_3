@@ -81,9 +81,9 @@ s.starttls()
 
 s.login("messiisahot@gmail.com", "anuragp0010")
 
-message1 = "The Machine Learning model has achieved the accuracy of " +accuracy+ "%"
+message1 = "The Machine Learning model has achieved the accuracy of "
 
-s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message1)
+s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message1,+str(accuracy))
     
 
     # terminating the session 
