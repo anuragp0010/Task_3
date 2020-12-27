@@ -79,15 +79,11 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("anuragp0010@gmail.com", "***********")
+s.login("messiisahot@gmail.com", "anuragp0010")
 
+message1 = "the code has achieved the accuracy "
 
-    # message
-message1 = "success"
-    
-
-    # sending the mail 
-s.sendmail("anuragp0010@gmail.com", "1706208@kiit.ac.in", message1)
+s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message1)
     
 
     # terminating the session 
