@@ -81,7 +81,7 @@ s.starttls()
 
 s.login("messiisahot@gmail.com", "anuragp0010")
 
-message1 = "the code has achieved the accuracy "
+message1 = "The Machine Learning model has achieved the accuracy of " +accuracy+ "%"
 
 s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message1)
     
