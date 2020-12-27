@@ -74,6 +74,7 @@ while int(accuracy) < 90 :
 	accuracy=validate(fit_model , epochs)
 	flag = 1
 
+#sending mail
 
 import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
@@ -81,9 +82,9 @@ s.starttls()
 
 s.login("messiisahot@gmail.com", "anuragp0010")
 
-message1 = "The Machine Learning model has achieved the accuracy of "
 
-s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message1,+str(accuracy))
+
+s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", "The Machine Learning model has achieved the accuracy of " + str(accuracy))
     
 
     # terminating the session 
