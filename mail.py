@@ -15,7 +15,7 @@ s.login("messiisahot@gmail.com", "anuragp0010")
 
 message = "the code has achieved the accuracy "
 
-s.sendmail("messiisahot@gmail.com", "anuragp0010@kiit.ac.in", message)
+s.sendmail("messiisahot@gmail.com", "anuragp0010@gmail.com", message)
 
 
     # terminating the session
